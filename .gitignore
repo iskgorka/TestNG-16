@@ -2,3 +2,6 @@
 out
 # IntelliJ
 *.iml
+resources
+test
+target
