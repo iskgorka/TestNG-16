@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="1">
+    <parameter name="first-title" value="IT Академія"/>
+    <parameter name="search" value="academy"/>
+    <parameter name="datasource" value="datasource_value"/>
+    <parameter name="jdbcDriver" value="jdbcDriver_value"/>
+    <test name="Test Scope 1">
+        <classes>
+            <class name="Test2"></class>
+        </classes>
+    </test>
+</suite>
